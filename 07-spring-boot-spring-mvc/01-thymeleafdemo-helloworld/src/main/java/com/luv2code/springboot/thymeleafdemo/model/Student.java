@@ -8,7 +8,7 @@ public class Student {
     private String lastName;
     private String country;
     private String favoriteLanguage;
-    private List<String> favoriteSystems;
+    private List<String>systems;
 
     public Student(){}
 
@@ -44,11 +44,11 @@ public class Student {
         this.favoriteLanguage = favoriteLanguage;
     }
 
-    public List<String> getFavoriteSystems() {
-        return favoriteSystems;
+    public List<String> getSystems() {
+        return systems;
     }
 
-    public void setFavoriteSystems(List<String> favoriteSystems) {
-        this.favoriteSystems = favoriteSystems;
+    public void setSystems(List<String> systems) {
+        this.systems = systems;
     }
 }
